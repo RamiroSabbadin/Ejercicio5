@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  height: 100vh;
+}
+
+#cards-container-general {
+  width: 70vw;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_container {
+  height: 370px;
+  width: 300px;
+  margin: 10px 15px 20px 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(206, 206, 206);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_container img {
+  height: 200px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.card_container h2 {
+  font-size: 2rem;
+  margin: 20px 20px 10px 20px;
+  font-weight: 200;
+}
+
+.card_container h4 {
+  font-size: 1.5rem;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: small;
+  color: gray;
+  font-weight: 100;
+}
+
+.form_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+}
+
+.form_container input {
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid rgb(206, 206, 206);
+  font-size: 1rem;
+  text-align: center;
+  width: 300px;
+}
+
+.form_container button {
+  height: 60px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid rgb(206, 206, 206);
+  background-color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.form_container button:hover {
+  background-color: rgb(48, 48, 48);
+  cursor: pointer;
+}
